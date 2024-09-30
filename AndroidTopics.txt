@@ -1,0 +1,47 @@
+Icon - vector asset-(flaticon)(svg)
+font size - sp
+space - dp
+
+Layout
+
+Relative layout
+-Gravity
+
+Linear layout
+-Orientation(Horizontal/Vertical)
+-Gravity(center/right/left/top/bottom/center_horizontal/center_vertical)
+-background
+-Margine
+-Padding
+
+Views
+
+EditView
+-ems(int type)
+-inputType(number/text/passward/mail/...)
+-hint
+
+TextView
+
+ImageView
+-src(for images)
+-contentDescription
+-scaleType(fitXY/fitX/fitY/...)
+
+
+
+
+ListView
+ScrollView
+CardView
+GridView
+RecyclerView
+
+WebView
+VideoView
+CalenderView
+SearchView
+DropDownView
+ViewSwtcher
+ViewAnimator
+FragmentCoontianerView

@@ -1,0 +1,29 @@
+DDMS(Dalvik Debug Monitor Service)
+
+	The Dalvik Debug Monitor Service (DDMS) is a debugging tool and downloaded as part of the Android SDK.
+	which provides port-forwarding services, screen capture on the device, thread and heap information on the device, logcat, process, and radio state information, incoming call and SMS spoofing, location data spoofing, and more.
+	allows developers to spot bugs in applications running on either an emulator or an actual Android device.
+	by using the DDMS’ LogCat feature, developers can view log messages regarding the state of the application and the device.
+	it can simulate different types of networks such as GPRS, EDGE, and UTMS.
+	
+	
+
+########  AIDL  ########
+	
+	HAL using AIDL to communicate between framework components such as thosein system.img and hardware components such as those in vendor.img, must use stable AIDL.
+	
+$$ What is AIDL ?
+	- AIDL is used to communicate from Framwork layer to lower HAL. However, we are free to use HIDL or AIDL to communicate from one HAL to another.
+	- AIDL can be used between any process in Android: between platform components or between apps.
+
+Where is it located?
+	- between Applications and Application Framework
+	
+$$ AIDL vs HIDL ?
+	AIDL is for IPC within Android Framework. HIDL is for IPC between HAL and Android Framework.
+
+$$ why AIDL over HIDL?
+	AIDL has stability support
+	AIDL also has a better versioning system than HIDL.
+	it is single IPC lang
+	
